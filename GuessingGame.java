@@ -28,10 +28,10 @@ public class GuessingGame {
             return "Correct!\nTotal Guesses: " + count;
         }
         else if (userAnswer > computerNumber) {
-            return "Your guess is too high, try again.\nTry Number: " + count;
+            return "Your guess is too HIGH, try again.\nTry Number: " + count;
         }
         else if (userAnswer < computerNumber) {
-            return "Your guess is too low, try again.\nTry Number: " + count;
+            return "Your guess is too LOW, try again.\nTry Number: " + count;
         }
         else {
             return "Your guess is incorrect\nTry Number: " + count;
