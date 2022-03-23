@@ -10,7 +10,7 @@ class BinarySearchExample
       int counter, num, item, array[], first, last, middle;
       //To capture user input
       Scanner input = new Scanner(System.in);
-      System.out.println("Please enter number of elements:");
+      System.out.println("Please enter amount of elements:"); // I like this wording better :)
       num = input.nextInt(); 
 
       //Creating array to store the all the numbers
