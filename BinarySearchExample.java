@@ -21,7 +21,7 @@ class BinarySearchExample
       for (counter = 0; counter < num; counter++)
           array[counter] = input.nextInt();
 
-      System.out.println("Enter the search value:");
+      System.out.println("Enter the search values on Mads!:");
       item = input.nextInt();
       first = 0;
       last = num - 1;
